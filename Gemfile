@@ -6,6 +6,7 @@ gem 'rails', '3.0.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3', '1.3.3'
+gem 'gravatar_image_tag', '1.0.0'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -43,5 +44,6 @@ group :test do
 
 	gem 'autotest-standalone', :require => 'autotest'
 	gem 'turn', '0.8.2'
+	gem 'factory_girl_rails', '1.0'
 
 end
